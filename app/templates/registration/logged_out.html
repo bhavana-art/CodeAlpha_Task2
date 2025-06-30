@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+    <section class="container-center">
+        <div class="card">
+            <div>
+                <p>{% translate "Thanks for spending some quality time with the web site today." %}</p>
+            </div>
+             <div class="divider"></div>
+            <div class="flex-center">
+                <p class="link color-primary"><a href="{% url 'index' %}">{% translate 'Log in again' %}</a></p>
+            </div>
+        </div>
+    </section>
+{% endblock %}

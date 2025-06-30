@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #0866ff;
+    --ternary-color: #42b72a;
+    --background-color: #f0f2f5;
+    --primary-icon: #050505;
+    --primary-button-background: #0866ff;
+    --secondary-icon: #65676B;
+}
+
+
+.color-primary {
+    color: var(--primary-color);
+}
